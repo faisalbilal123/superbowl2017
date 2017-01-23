@@ -1,5 +1,7 @@
 require 'sinatra'
 
 get '/' do
-    'New England Patroits'
+    @title = 'New England Patroits'
+    
+    erb :nfl
 end
